@@ -10,7 +10,7 @@ public class App {
     }
     
     public static void OrdenarPorInsercion(int Arr[], int n){
-        
+    
         for (int i = 1; i < Arr.length; i++) {
             int ValorC = Arr[i];    //Asignar a la variable temporal el valor del segundo elemento
             int posicion = i;       //Es para llevar el seguimiento de las posiciones del elemento de referencia
